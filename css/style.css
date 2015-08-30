@@ -1,0 +1,109 @@
+body {
+    height: 100%;
+    font-family: 'Open Sans',sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+
+.bg {
+	background-image: url("../img/bg-peta.png");
+	background-repeat: repeat-y;
+	background-size: 110%;
+}
+h1, h2 {
+	font-family: 'Pirata One', cursive;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h1{
+	font-size: 40pt;
+}
+
+p {
+	font-size: 10pt;
+}
+.dialog-text {
+	padding-top: 50px;
+	font-size: 16pt;
+}
+
+.dialog-box {
+	background-image: url("../img/dialog-box.png");
+	width: 1200px;
+	padding-bottom: 75px;
+	background-repeat: no-repeat;
+}
+
+.kertas-a {
+	background-image: url("../img/kertas-a.png");
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: 100%;
+	height: 179px;
+}
+
+.kertas-t {
+	background-image: url("../img/kertas-t.png");
+	background-size: 100%;
+	min-height: 400px;
+	background-repeat: repeat-y;
+}
+
+.kertas-b {
+	background-image: url("../img/kertas-b.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%;
+	height: 227px;
+}
+
+.kertas-cara {
+	background-image: url("../img/kertas-cara.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 85%;
+	height: 675px;
+	padding-top: 20px;
+}
+
+.cara-text {
+	text-align: center;
+	font-size: 14pt;
+}
+
+.cara > img {
+	max-height: 220px;
+}
+
+.btn-ahoy > img {
+	max-width: 200px;
+}
+
+.btn-ahoy-2 > img {
+	max-width: 100px;
+}
+
+.form-inline {
+	text-align: center;
+}
+
+.ahoy {
+	text-align: center;
+}
+
+.end {
+	text-align: center;
+}
+
+.end-text > p {
+	font-size: 12pt;
+}
+
+.end > .kertas-t {
+	background-image: url("../img/kertas-t.png");
+	background-size: 100%;
+	min-height: 265px;
+	background-repeat: repeat-y;
+}
