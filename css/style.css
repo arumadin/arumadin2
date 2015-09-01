@@ -3,15 +3,16 @@ body {
     font-family: 'Open Sans',sans-serif;
     color: #000;
     background-color: #fff;
+    background-image: url("../img/bg-peta.png");	
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+   	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: repeat-y;
 }
 
-.bg {
-	background-image: url("../img/bg-peta.png");
-	background-repeat: repeat-y;
-	background-size: 110%;
-}
 h1, h2 {
-	font-family: 'Pirata One', cursive;
+	font-family: 'Pirata One', 'Open Sans', sans-serif, cursive;
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -41,13 +42,13 @@ p {
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-size: 100%;
-	height: 179px;
+	height: 249px;
 }
 
 .kertas-t {
 	background-image: url("../img/kertas-t.png");
 	background-size: 100%;
-	min-height: 400px;
+	min-height: 385px;
 	background-repeat: repeat-y;
 }
 
@@ -56,25 +57,42 @@ p {
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: 100%;
-	height: 227px;
+	height: 316px;
 }
 
-.kertas-cara {
-	background-image: url("../img/kertas-cara.png");
+.kertas-cara-a {
+	background-image: url("../img/kertas-cara-a.png");
 	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 85%;
-	height: 675px;
-	padding-top: 20px;
+	background-position: bottom center;
+	background-size: 100%;
+	height: 126px;
+
 }
 
+.kertas-cara-b {
+	background-image: url("../img/kertas-cara-b.png");
+	background-repeat: repeat-y;
+	background-position: center center;
+	background-size: 100%;
+	min-height: 599px;
+}
+
+.kertas-cara-c {
+	background-image: url("../img/kertas-cara-c.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%;
+	height: 88px;
+}
 .cara-text {
 	text-align: center;
 	font-size: 14pt;
 }
 
 .cara > img {
-	max-height: 220px;
+	max-width: 90%;
+	height: auto;
+	vertical-align: middle;
 }
 
 .btn-ahoy > img {
